@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 90%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), gray, rgba(0, 0, 0, 0));
+}
+
+#full-background {
+  height: 100%;
+  background-size: cover;
+  background-image: linear-gradient(to top right, blue, black);
+  padding-top: 2rem;
+}
+
+#mainContainer {
+  width: 90%;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem 1rem 0 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#weatherPic {
+  height: 60px;
+}
+
+#temperatureH2 {
+  font-size: 48px;
+}
+
+.spacious {
+  margin-top: 5rem;
+}
+
+.sandwich {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.profile-link-icon {
+  font-size: 1.5rem;
+  margin: 0 5%;
+  color: #007bff;
+}
+
+/*************RESPONSIVE CSS***************************/
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+
+  #mainContainer {
+    width: 40%;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: white;
+  }
+
+  #mainContainer {
+    width: 90%;
+  }
+}
