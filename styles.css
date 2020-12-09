@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  font-size: 1vw;
 }
 
 body {
@@ -33,7 +34,7 @@ hr {
 }
 
 #temperatureH2 {
-  font-size: 48px;
+  /*font-size: 48px;*/
 }
 
 .spacious {
@@ -62,8 +63,8 @@ hr {
 }
 
 @media only screen and (orientation: portrait) {
-  body {
-    background-color: white;
+  html,body {
+    font-size: 3vw;
   }
 
   #mainContainer {
